@@ -1,5 +1,10 @@
 # ActionNetworkPy
 
+![pypi](https://img.shields.io/pypi/dd/py-actionnetworkorg)
+![pypi](https://img.shields.io/pypi/dw/py-actionnetworkorg)
+![pypi](https://img.shields.io/pypi/dm/py-actionnetworkorg)
+
+
 ActionNetworkPy is an unofficial Python client for the Action Network API. This package allows Python developers to easily integrate with the Action Network's suite of tools for organizing and managing various aspects of digital activism and campaign management.
 
 With ActionNetworkPy, you can programmatically access and manipulate resources such as people, events, petitions, donations, and more, all through the Action Network API. This client handles the intricacies of API communication, allowing you to focus on creating powerful applications for social change.
