@@ -9,3 +9,6 @@
 /py_actionnetworkorg.egg-info
 /dist
 /build
+.publish.sh
+/publish.sh
+.gitignore

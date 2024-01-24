@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: py-actionnetworkorg
-Version: 1.1.8
+Version: 1.1.9
 Summary: Unofficial python package for ActionNetwork (https://actionnetwork.org/)
-Home-page: UNKNOWN
+Home-page: https://github.com/NirTatcher/actionnetworkpy.git
 Author: Nir Tatcher
 Author-email: <nirto111@gmail.com>
 License: UNKNOWN
