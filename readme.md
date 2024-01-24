@@ -51,7 +51,7 @@ person_payload = {
 "add_tags": ["supporter"],
 "remove_tags": ["prospect"]
 }
-# Add the person or many persons to Action Network
+# Add the person or people to Action Network
 response = an.people.create(payloads=[person_payload])
 print(response)
 # OR

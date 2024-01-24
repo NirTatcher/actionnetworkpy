@@ -8,7 +8,7 @@ DESCRIPTION = "Unofficial python package for ActionNetwork (https://actionnetwor
 setup(name="py-actionnetworkorg",
       version=VERSION,
       author="Nir Tatcher",
-      author_email="<nirto111@gmail.com>",
+      # author_email="<nirto111@gmail.com>",
       description=DESCRIPTION,
       packages=find_packages(where='src'),
       package_dir={'': 'src'},
