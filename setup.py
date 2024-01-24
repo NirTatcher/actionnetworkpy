@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = "1.1.8"
+VERSION = "1.1.9"
 DESCRIPTION = "Unofficial python package for ActionNetwork (https://actionnetwork.org/)"
 
 setup(name="py-actionnetworkorg",
