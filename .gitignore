@@ -7,3 +7,5 @@
 /idea
 .pypirc
 /py_actionnetworkorg.egg-info
+/dist
+/build
