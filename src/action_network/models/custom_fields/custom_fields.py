@@ -7,6 +7,4 @@ class CustomFields(object):
         self._utils = Utils(headers=headers)
 
     def get(self, page=None, per_page=25, limit=None, filter=None):
-        return self.get_resource(
-            "metadata/custom_fields", per_page, page, filter
-        )
+        return self.get_resource("metadata/custom_fields", per_page, page, filter)

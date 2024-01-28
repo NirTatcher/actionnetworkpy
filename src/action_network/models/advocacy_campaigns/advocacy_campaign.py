@@ -1,5 +1,6 @@
 from ..utils.utils import Utils
 
+
 class AdvocacyCampaign(object):
     def __init__(self, headers):
         self._utils = Utils(headers)

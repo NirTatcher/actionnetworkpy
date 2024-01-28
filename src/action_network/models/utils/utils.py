@@ -37,7 +37,7 @@ class Utils:
             page += 1
             if not (
                 count < response_json["total_records"]
-                or (limit != None and count < limit)
+                or (limit is not None and count < limit)
             ):
                 break
         return results

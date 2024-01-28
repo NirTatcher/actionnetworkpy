@@ -9,8 +9,8 @@ class Lists(object):
     def get(self, page=None, per_page=25, limit=None, filter=None):
         if page:
             return self._utils._get_resource_collection(
-                f"lists", limit, per_page, filter
+                "lists", limit, per_page, filter
             )
         return self._utils._get_resource_collection_paginated(
-            f"lists", per_page, page, filter
+            "lists", per_page, page, filter
         )

@@ -11,7 +11,7 @@ class Tag(object):
 
     def create(self, payload=None):
         return self._utils.post_resource(
-            resource_name=f"tags", resource_payload=payload
+            resource_name="tags", resource_payload=payload
         )
 
     def update(self, tag_id=None, payload=None):

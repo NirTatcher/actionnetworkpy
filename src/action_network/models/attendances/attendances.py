@@ -30,5 +30,5 @@ class Attendances(object):
 
     def create(self, payloads=[]):
         return self._utils.post_resources(
-            resource_name=f"events", resource_payloads=payloads
+            resource_name="events", resource_payloads=payloads
         )

@@ -1,5 +1,6 @@
 from ..utils.utils import Utils
 
+
 class Query(object):
     def __init__(self, headers):
         self._headers = headers
@@ -10,7 +11,7 @@ class Query(object):
 
     def create(self, payload=None):
         return self._utils.post_resource(
-            resource_name=f"queries", resource_payload=payload
+            resource_name="queries", resource_payload=payload
         )
 
     def update(self, query_id=None, payload=None):

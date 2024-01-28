@@ -16,7 +16,6 @@ class Donations(object):
         return self._utils.get_resource_collection_paginated(
             f"people/{per_page}/donations", per_page, page, filter
         )
-        return "Result"
 
     def get_by_fundraising_page(
         self, fundraising_page_id=None, page=None, per_page=25, limit=None, filter=None
@@ -46,5 +45,5 @@ class Donations(object):
 
     def create(self, payloads=[]):
         return self._utils.update_resources(
-            resource_name=f"donations", resource_payloads=payloads
+            resource_name="donations", resource_payloads=payloads
         )

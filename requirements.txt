@@ -2,3 +2,5 @@ psycopg2_binary==2.9.6
 Requests==2.31.0
 setuptools==65.5.0
 sshtunnel==0.4.0
+black==23.9.1
+flake8==6.1.0

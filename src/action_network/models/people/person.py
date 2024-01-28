@@ -12,7 +12,7 @@ class Person(object):
 
     def create(self, payload=None):
         return self._utils.post_resource(
-            resource_name=f"people", resource_payload=payload
+            resource_name="people", resource_payload=payload
         )
 
     def update(self, person_id=None, payload=None):

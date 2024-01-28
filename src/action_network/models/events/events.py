@@ -20,10 +20,10 @@ class Events(object):
     def get(self, page=None, per_page=25, limit=None, filter=None):
         if page:
             return self._utils.get_resource_collection(
-                f"events", limit, per_page, filter
+                "events", limit, per_page, filter
             )
         return self._utils.get_resource_collection_paginated(
-            f"events", per_page, page, filter
+            "events", per_page, page, filter
         )
 
     def create(self, payloads=[]):

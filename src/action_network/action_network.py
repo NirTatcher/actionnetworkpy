@@ -122,5 +122,3 @@ class ActionNetwork(object):
         # TODO: Later
         # SQL Mirror (More Info: https://actionnetwork.org/contact?group=uploads)
         # self.sql_mirror = SQLMirror
-
-   

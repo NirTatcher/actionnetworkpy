@@ -11,7 +11,7 @@ class Wrapper(object):
 
     def create(self, payload=None):
         return self._utils.post_resource(
-            resource_name=f"wrappers", resource_payload=payload
+            resource_name="wrappers", resource_payload=payload
         )
 
     def update(self, wrapper_id=None, payload=None):

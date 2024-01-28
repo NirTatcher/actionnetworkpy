@@ -1,1 +1,1 @@
-from .action_network import ActionNetwork
+from .action_network import ActionNetwork  # noqa: F401

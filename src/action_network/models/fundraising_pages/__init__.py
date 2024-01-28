@@ -1,2 +1,0 @@
-from .fundraising_page import FundraisingPage
-from .fundraising_pages import FundraisingPages

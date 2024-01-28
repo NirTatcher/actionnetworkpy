@@ -9,14 +9,13 @@ class People(object):
     def get(self, page=None, per_page=25, limit=None, filter=None):
         if page:
             return self._utils.get_resource_collection(
-                f"people", limit, per_page, filter
+                "people", limit, per_page, filter
             )
         return self._utils.get_resource_collection_paginated(
-            f"people", per_page, page, filter
+            "people", per_page, page, filter
         )
-        return "Result"
 
     def create(self, payloads=[]):
         return self._utils.post_resources(
-            resource_name=f"people", resource_payloads=payloads
+            resource_name="people", resource_payloads=payloads
         )

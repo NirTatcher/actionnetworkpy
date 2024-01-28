@@ -17,5 +17,5 @@ class Wrappers(object):
 
     def create(self, payloads=[]):
         return self._utils.post_resources(
-            resource_name=f"wrappers", resource_payloads=payloads
+            resource_name="wrappers", resource_payloads=payloads
         )
