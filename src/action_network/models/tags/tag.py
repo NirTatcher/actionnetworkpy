@@ -10,9 +10,7 @@ class Tag(object):
         return self._utils.get_resource(f"tags/{tag_id}")
 
     def create(self, payload=None):
-        return self._utils.post_resource(
-            resource_name="tags", resource_payload=payload
-        )
+        return self._utils.post_resource(resource_name="tags", resource_payload=payload)
 
     def update(self, tag_id=None, payload=None):
         return self._utils.post_resource(
